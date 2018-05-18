@@ -1,0 +1,5 @@
+os: linux
+dist: trusty
+language: cpp
+compiler: g++
+script: g++ -o tt test.cpp
