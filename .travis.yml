@@ -3,3 +3,10 @@ dist: trusty
 language: cpp
 compiler: g++
 script: g++ -o tt test.cpp
+deploy:
+  provider: releases
+  api_key:
+    secure: HaB8nPKPF/4wk+ruqakF54447EHMJIxkGPxxfj+jCkrow379bQ0eVT87lgWVI3TIy7GEN+gi/ouB80l7QokT10P9QSgZohVDlk34h4U5raxWp+bGJTdTrf6EapMaBAXL1YT16ixS20v6dqB3cUFqPhd4BMCeou8qa4Jkc+LMbT1TcBqlXGmijLPl6jhq63Bnczk2e2ZanN3Mb501wjO7QdA+5H1MFfug8mWD6OSk/vhcoWfxq3YP/syb4BN1dk2ezo3+NxhvgYVk8HcN00IeJnkdcFRjZ+COtHZiZjkXvIkl09+ndcBJNetoQvehDWARtPqbGUouviH5xa18ZoJxKlhXwXSsrtyRutUb0ggaGFtaYLn1Kae68341nf/9iEDN5MgbAPRSkw2zuhK98glIeNttQFecKpf0XlElDG1BKM+K0ahiI0MqiPt+2o36/zlWDOdfLSJKgrpoLVSB9pkC9PY3aYw+NfNg7LaC7PNTYaxaQm5fjThFb1/5jPHTKiIqjUSc128TYfi/EqLT/ljFG/iqT9G3ka3XQLKaw+Fl5cDQ0ie9Fn0tJtlgsu6UuNKOIuzx1QdLq7Si+xjllkaFfoKdWTGPPh7/CX3G9RlUvsZsPwI3X2UtRSKBSXtWzydB63MF6nqUqA3eg65/9TQRiyg5C+V68xLIKWxOqwC27m4=
+  file: tt
+  on:
+    repo: rish9511/Travistest
